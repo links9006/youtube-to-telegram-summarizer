@@ -1,0 +1,10 @@
+[Unit]
+Description=All YouTube backlog import
+After=network.target
+
+[Service]
+Type=oneshot
+User=ubuntu
+WorkingDirectory=/home/ubuntu/all-youtube
+EnvironmentFile=/home/ubuntu/all-youtube/.env
+ExecStart=/home/ubuntu/all-youtube/.venv/bin/python -m app.producer_backlog

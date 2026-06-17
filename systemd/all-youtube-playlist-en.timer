@@ -1,0 +1,10 @@
+[Unit]
+Description=Run EN playlist producer every 3 minutes
+
+[Timer]
+OnBootSec=2min
+OnUnitActiveSec=3min
+Unit=all-youtube-playlist-en.service
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,15 @@
+[Unit]
+Description=All YouTube Telegram bot
+After=network.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/all-youtube
+EnvironmentFile=/home/ubuntu/all-youtube/.env
+ExecStart=/home/ubuntu/all-youtube/.venv/bin/python -m app.bot_main
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

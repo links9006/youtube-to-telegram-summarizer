@@ -1,0 +1,11 @@
+[Unit]
+Description=Run daily search producer daily
+
+[Timer]
+OnBootSec=10min
+OnCalendar=daily
+RandomizedDelaySec=1h
+Unit=all-youtube-search-daily.service
+
+[Install]
+WantedBy=timers.target

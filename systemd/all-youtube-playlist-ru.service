@@ -1,0 +1,10 @@
+[Unit]
+Description=All YouTube RU playlist producer
+After=network.target
+
+[Service]
+Type=oneshot
+User=ubuntu
+WorkingDirectory=/home/ubuntu/all-youtube
+EnvironmentFile=/home/ubuntu/all-youtube/.env
+ExecStart=/bin/bash -lc '/home/ubuntu/all-youtube/.venv/bin/python -m app.producer_playlist --language ru --playlist-url "$PLAYLIST_RU_URL" --source-type playlist_ru'
