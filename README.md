@@ -1,10 +1,10 @@
-# all-youtube
+# youtube-to-telegram-summarizer
 
 > A self-hosted pipeline that turns YouTube videos into short, readable summaries delivered to a Telegram channel. Plug in a playlist, a search query, or send a link to a bot — get a clean Russian-language digest.
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![CI](https://img.shields.io/github/actions/workflow/status/links9006/all-youtube/ci.yml?branch=main)](.github/workflows/ci.yml)
+[![CI](https://img.shields.io/github/actions/workflow/status/links9006/youtube-to-telegram-summarizer/ci.yml?branch=main)](.github/workflows/ci.yml)
 
 ## ✨ Features
 
@@ -64,7 +64,7 @@
 ### Install
 
 ```bash
-git clone https://github.com/links9006/all-youtube.git
+git clone https://github.com/links9006/youtube-to-telegram-summarizer.git
 cd all-youtube
 
 python3 -m venv .venv
