@@ -4,7 +4,7 @@
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![CI](https://img.shields.io/github/actions/workflow/status/<OWNER>/all-youtube/ci.yml?branch=main)](.github/workflows/ci.yml)
+[![CI](https://img.shields.io/github/actions/workflow/status/links9006/all-youtube/ci.yml?branch=main)](.github/workflows/ci.yml)
 
 ## ✨ Features
 
@@ -64,7 +64,7 @@
 ### Install
 
 ```bash
-git clone https://github.com/<OWNER>/all-youtube.git
+git clone https://github.com/links9006/all-youtube.git
 cd all-youtube
 
 python3 -m venv .venv
